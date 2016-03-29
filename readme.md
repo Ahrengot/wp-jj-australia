@@ -4,7 +4,8 @@
 TODO: Write a project description
 
 ## Installation
-TODO: Describe the installation process
+GULP
+Travis CI
 
 ## Usage
 TODO: Write usage instructions
