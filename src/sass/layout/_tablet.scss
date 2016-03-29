@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+
+	.navigation-container,
+	.site-content {
+		width: 860px;
+	}
+
+	.tile {
+		width: 422px;
+		height: 396px;
+	}
+	
+	.first-tile {
+   		margin-right: 14px;
+	}
+
+	.brand-image {
+		width: 196px;
+		height: 238px;
+		margin-left: 15px;
+	}
+
+	.brands-images {
+		height: 272px;
+	}
+	.footer-column {
+		width: 164px;
+	}
+}
