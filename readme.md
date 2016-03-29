@@ -5,7 +5,7 @@ TODO: Write a project description
 
 ## Installation
 GULP
-Travis CI
+Travis CI - test
 
 ## Usage
 TODO: Write usage instructions
