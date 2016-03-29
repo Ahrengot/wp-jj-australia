@@ -1,0 +1,39 @@
+a {
+	color: $color__link;
+	text-decoration: none;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+		text-decoration: underline;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+.nav-menu a {
+	color: #fff;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+ 	-webkit-transition: opacity 0.5s linear;
+}
+
+.nav-menu a:hover,
+.nav-menu a:active {
+	opacity: 1;
+	filter: alpha(opacity=100);
+ 	-webkit-transition: opacity 0.5s linear;
+}
+
+.current-menu-item a {
+	opacity: 1;
+}

@@ -1,0 +1,81 @@
+.tile {
+	color: #000;
+	width: 530px;
+	height: 495px;
+	border: 1px solid #e1e1e1;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+	background: #fff;
+}
+
+.first-tile {
+	margin-right: 20px;
+}
+
+.tile-image {
+	border-bottom: 1px solid #e1e1e1;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.tile-image:hover {
+	opacity: .8;
+}
+
+.tile-title,
+.tile-text {
+	margin: 0;
+}
+
+.tile-text {
+	margin-top: 30px;
+}
+
+.brands-headline {
+	float: left;
+	width: 100%;
+	margin: 50px auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands-headline h2 {
+   width: 385px; 
+   text-align: center; 
+   border-bottom: 1px solid #afafaf; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+.brands-headline h2 span { 
+    background: #f6f6f6; 
+    padding:0 10px; 
+    color: #626262;
+}
+
+.brands-images {
+	height: 330px;
+	width: 100%;
+	border: 1px solid #e1e1e1;
+	float: left;
+	margin-bottom: 110px;
+	background: #fff;
+}
+
+.brand-image {
+	height: 296px;
+	width: 248px;
+	float: left;
+	margin-top: 16px;
+	margin-left: 17px;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.brand-image:hover {
+	opacity: .8;
+}

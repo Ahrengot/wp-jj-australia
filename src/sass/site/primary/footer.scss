@@ -1,0 +1,59 @@
+.site-footer {
+	background: #e9e9e9;
+	height: 215px;
+	border-top: 1px solid #e3e3e3;
+}
+
+.site-info {
+	display: none;
+}
+
+.footer-navigation {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.footer-column {
+	float: left;
+	width: 200px;
+}
+
+.footer-column h3 {
+	text-transform: uppercase;
+}
+
+.footer-column ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer-social a {
+	display: block;
+	float: left;
+	height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.facebook-icon {
+	background: url(img/facebook-icon.png) no-repeat center;
+}
+
+.instagram-icon {
+	background: url(img/instagram-icon.png) no-repeat center;
+}
+
+.twitter-icon {
+	background: url(img/twitter-icon.png) no-repeat center;
+}
+
+.news h3,
+.company h3 {
+	pointer-events: none;
+}
+
+.news ul,
+.company ul {
+	display: block;
+}

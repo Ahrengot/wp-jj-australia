@@ -1,0 +1,245 @@
+@media (max-width: 860px) {
+	
+	.site-main {
+		display: table;
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	.navigation-container,
+	.site-content {
+		width: 100%;
+	}
+
+	.site-header {
+		text-align: center;
+	}
+
+	.site-logo {
+		float: none;
+		margin: 0 0 0 -65px;
+	}
+
+	.nav-active .menu {
+		display: block;
+	}
+
+	.main-navigation {
+		margin-top: 65px;
+	    position: fixed;
+	    min-width: 320px;
+	    -webkit-transform: translateX(-100%);
+	    -ms-transform: translateX(-100%);
+	    transform: translateX(-100%);
+	    transition: -webkit-transform 0.3s ease;
+	    transition: transform 0.3s ease;
+	    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+	    text-align: left;
+	    height: 100%;
+	    background: #000;
+	    overflow: auto;
+	    opacity: 0.85;
+	}
+
+	.main-navigation a {
+		line-height: 45px;
+	}
+
+	.main-navigation li {
+		float: none;
+		padding-left: 20px;
+		margin: 0;
+		border-bottom: 1px solid #363636;
+	}
+
+	.main-navigation.nav-active {
+	    -webkit-transform: translateX(0);
+	    -ms-transform: translateX(0);
+	    transform: translateX(0);
+	}
+
+	button.nav-toggle {
+	    background: #000;
+	    border: none;
+	    box-shadow: none;
+	    border-radius: 0;
+	    position: relative;
+	    z-index: 5;
+	    outline: none;
+	}	
+
+	.site-header button.nav-toggle .navicon {
+	    width: 50%;
+	    height: 3px;
+	    background: #fff;
+	    margin: 0 auto;
+	    transition: background-color 0.3s ease;
+	}
+	.site-header button.nav-toggle .navicon:before, .site-header button.nav-toggle .navicon:after {
+	    content: '';
+	    display: block;
+	    width: 100%;
+	    height: 3px;
+	    background: #fff;
+	    transition: -webkit-transform 0.3s ease;
+	    transition: transform 0.3s ease;
+	    transition: transform 0.3s ease,  -webkit-transform 0.3s ease;
+	}
+	.site-header button.nav-toggle .navicon:before {
+	    -webkit-transform: translateY(-8px);
+	    -ms-transform: translateY(-8px);
+	    transform: translateY(-8px);
+	}
+	.site-header button.nav-toggle .navicon:after {
+	    -webkit-transform: translateY(5px);
+	    -ms-transform: translateY(5px);
+	    transform: translateY(5px);
+	}
+	.site-header button.nav-toggle.nav-active .navicon {
+	    background: none;
+	}
+	.site-header button.nav-toggle.nav-active .navicon:before {
+	    -webkit-transform: translateY(0) rotate(45deg);
+	    -ms-transform: translateY(0) rotate(45deg);
+	    transform: translateY(0) rotate(45deg);
+	}
+	.site-header button.nav-toggle.nav-active .navicon:after {
+	    -webkit-transform: translateY(-3px) rotate(-45deg);
+	    -ms-transform: translateY(-3px) rotate(-45deg);
+	    transform: translateY(-3px) rotate(-45deg);
+	}
+
+	.brands-headline {
+		margin: auto;
+	}
+
+	.brands-images {
+		border: none;
+		margin: 0;
+		background: none;
+		max-width: 480px;
+    	margin: 0 auto;
+    	float: none;
+	}
+
+	.brand-image {
+		margin-left: 0;
+		margin-top: 10px;
+		width: 49%;
+		height: auto;
+	}
+
+	.mobile-align-right {
+		float: right;
+	}
+
+	.site-cover {
+		height: 150px;
+		margin-bottom: 20px;
+	}
+
+	.tile {
+		width: 100%;
+	    max-width: 480px;
+	    height: auto;
+	    float: none;
+	    margin: 20px auto;
+	    clear: both;
+	}
+
+	.tile-text {
+		margin-top: 20px;
+	}
+
+	.tile-title {
+		margin-bottom: 20px;
+	}
+
+	.brands {
+		display: table-header-group;
+	}
+
+	.tiles {
+		display: table-footer-group;
+	}
+
+	.site-footer {
+		height: auto;
+		border: none;
+	}
+
+	.footer-column {
+		float: none;
+	}
+
+	.footer-navigation {
+		display: table;
+		width: 100%;
+	}
+
+	.footer-navigation .social {
+		display: table-header-group;
+		text-align: center;
+		background: #f6f6f6;
+	}
+
+	.footer-social {
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	margin-bottom: 40px;
+	}
+
+	.twitter-icon {
+		margin-right: 0;
+	}
+
+	.footer-navigation .news {
+		display: table-row-group;
+	}
+	.footer-navigation .company {
+		display: table-footer-group;
+	}
+
+	.news ul,
+	.company ul {
+		display: none;
+		padding: 15px 30px;
+	}
+
+	.news h3,
+	.company h3 {
+		border-top: 1px solid #cbcbcb;
+		margin: 0;
+		padding: 15px 30px;
+		cursor: pointer;
+		pointer-events: all;
+	}
+
+	.news h3::after,
+	.company h3::after {
+		float: right;
+		content: '>';
+		display: inline-block;
+		-webkit-transform: rotate( 90deg);
+		-moz-transform: rotate( 90deg);
+		-ms-transform: rotate( 90deg);
+		-o-transform: rotate( 90deg);
+		-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+
+	.news h3.rotate-arrow::after,
+	.company h3.rotate-arrow::after {
+		-webkit-transform: rotate( -90deg);
+		-moz-transform: rotate( -90deg);
+		-ms-transform: rotate( -90deg);
+		-o-transform: rotate( -90deg);
+	}
+
+	.brands-headline h2 {
+		width: 215px;
+	}
+}
