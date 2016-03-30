@@ -1,10 +1,15 @@
+.landing-page {
+    width: 1080px;
+    margin: 0 auto;
+}
+
 .tile {
 	color: #000;
 	width: 530px;
 	height: 495px;
 	border: 1px solid #e1e1e1;
 	float: left;
-	margin-top: 50px;
+	margin-top: 20px;
 	text-align: center;
 	background: #fff;
 	text-transform: uppercase;
@@ -83,4 +88,78 @@
 
 .brand-image:hover {
 	opacity: .8;
+}
+
+.metaslider {
+    width: 100%;
+    max-width: 100% !important;
+    top: -28px;
+}
+
+.flex-direction-nav .flex-next {
+	right: 50px;
+}
+
+.flex-direction-nav .flex-prev {
+	right: 50px;
+}
+
+// Lord please forgive me for the importans im about to make !
+.flex-control-paging li a {
+	width: 17px !important;
+	height: 17px !important;
+}
+
+.flex-control-nav {
+	position: relative !important;
+    margin-top: -65px !important;
+    z-index: 10;
+}
+
+.flex-direction-nav a {
+	height: 60px !important;
+	width: 30px !important;
+    background: url(img/swiper-arrows.png) no-repeat 0 0 !important;
+    margin: -20px 2% 0 !important;
+}
+
+.flexslider:hover .flex-prev {
+    opacity: 1 !important;
+    left: 30px !important;
+}
+
+.flexslider:hover .flex-next {
+	opacity: 1 !important;
+    right: 30px !important;
+}
+
+.flexslider .flex-next {
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.post-edit-link {
+	display: none;
+}
+
+.page-template-custom-landing-page {
+	
+	.site-cover {
+		display: none;
+	}
+
+	.site-content {
+		width: 100%;
+	}
+
+	.hentry {
+		margin-bottom: 0;
+	}
+
+	.content-area {
+		margin-top: 0;
+	}
 }
