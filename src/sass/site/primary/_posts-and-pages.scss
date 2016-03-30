@@ -1,6 +1,6 @@
 .site-content {
 	margin: 0 auto;
-	width: 1080px;
+	width: 700px;
 }
 
 .content-area {
@@ -16,7 +16,10 @@
 }
 
 .byline,
-.updated:not(.published) {
+.updated:not(.published),
+.entry-footer,
+.entry-meta,
+h1.page-title {
 	display: none;
 }
 
@@ -31,7 +34,21 @@
 	margin: 1.5em 0 0;
 }
 
+.entry-content {
+    border-bottom: 1px solid #b7b7b7;
+    margin-top: 0;
+}
+
+
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+h2.entry-title {
+    margin: 0;
+}
+
+h3.subtitle {
+	font-weight: normal;
 }

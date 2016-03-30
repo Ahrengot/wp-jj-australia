@@ -39,6 +39,7 @@
 .tile-text {
 	margin-top: 30px;
 	letter-spacing: 2px;
+	color: #000;
 }
 
 .brands-headline {
@@ -161,5 +162,9 @@
 
 	.content-area {
 		margin-top: 0;
+	}
+
+	.entry-content {
+		border: 0;
 	}
 }
