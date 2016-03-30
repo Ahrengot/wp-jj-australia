@@ -38,13 +38,10 @@
 				<h3>Company</h3>
 				<ul>
 					<li>
-						<a href="">About Us</a>
+						<a href="http://www.aboutbestseller.com/sustainability" target="_blank">Sustainability</a>
 					</li>
 					<li>
-						<a href="">Bestseller</a>
-					</li>
-					<li>
-						<a href="">Contact us</a>
+						<a href="http://www.aboutbestseller.com/news" target="_blank">Corporate News</a>
 					</li>
 				</ul>
 			</div>
