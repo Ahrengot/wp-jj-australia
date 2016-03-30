@@ -1,10 +1,26 @@
+/* normal */
+@font-face {
+    font-family: 'PFDinMono';
+    src: url('font/pfdinmono.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* bold */
+@font-face {
+    font-family: 'PFDinMono';
+    src: url('font/pfdinmono-bold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body,
 button,
 input,
 select,
 textarea {
 	color: #404040;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PFDinMono', sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
