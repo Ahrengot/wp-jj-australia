@@ -10,6 +10,10 @@
 		table-layout: fixed;
 	}
 
+	.article-page {
+		width: 100%;
+	}
+
 	.navigation-container,
 	.site-content {
 		width: 100%;
@@ -176,6 +180,10 @@
 		float: none;
 	}
 
+	.social h3 {
+		text-align: center;
+	}
+
 	.footer-navigation {
 		display: table;
 		width: 100%;
@@ -245,5 +253,10 @@
 
 	.brands-headline h2 {
 		width: 215px;
+	}
+
+	.entry-content p {
+    	margin-right: 25px;
+    	margin-left: 25px;
 	}
 }

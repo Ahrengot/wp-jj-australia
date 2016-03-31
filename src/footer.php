@@ -46,7 +46,7 @@
 				</ul>
 			</div>
 			<div class="footer-column social">
-				<h3>FOLLOW US</h3>
+				<h3>FOLLOW US:</h3>
 				<div class="footer-social">
 					<a class="facebook-icon" href="https://www.facebook.com/JackandJones/" target="_blank"></a>
 					<a class="instagram-icon" href="https://www.instagram.com/jackandjones_official/" target="_blank"></a>

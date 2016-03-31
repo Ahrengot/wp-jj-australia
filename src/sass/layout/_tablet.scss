@@ -1,9 +1,16 @@
 @media (max-width: 1024px) {
 
 	.landing-page,
-	.navigation-container,
-	.site-content {
+	.navigation-container {
 		width: 860px;
+	}
+
+	.landing-page .site-content {
+		width: 860px;	
+	}
+
+	.site-content {
+		width: 700px;
 	}
 
 	.tile {
