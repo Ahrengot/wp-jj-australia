@@ -41,22 +41,28 @@ get_header(); ?>
 
 			<?php
 				// vars for highlight tiles
+				$tile_1_link = get_field('tile_1_link');
 				$tile_1_title = get_field('tile_1_title');
 				$tile_1_text = get_field('tile_1_text');
 				$tile_1_image = get_field('tile_1_image');
+				$tile_2_link = get_field('tile_2_link');
 				$tile_2_title = get_field('tile_2_title');
 				$tile_2_text = get_field('tile_2_text');
 				$tile_2_image = get_field('tile_2_image');
 				// var for brand images
 				$brand_1_image = get_field('brand_1_image');
+				$brand_1_link = get_field('brand_1_link');
 				$brand_2_image = get_field('brand_2_image');
+				$brand_2_link = get_field('brand_2_link');
 				$brand_3_image = get_field('brand_3_image');
+				$brand_3_link = get_field('brand_3_link');
 				$brand_4_image = get_field('brand_4_image');
+				$brand_4_link = get_field('brand_4_link');
 			?>
 
 			<section class="tiles">
 				<div class="tile first-tile">
-					<a href="">
+					<a href="<?php echo $tile_2_link; ?>">
 						<img class="tile-image" src="<?php echo $tile_1_image['url']; ?>">
 						<p class="tile-text"><?php echo $tile_1_text; ?></p>
 						<h2 class="tile-title"><?php echo $tile_1_title; ?></h2>
@@ -64,7 +70,7 @@ get_header(); ?>
 				</div>
 
 				<div class="tile">
-					<a href="">
+					<a href="<?php echo $tile_2_link; ?>">
 						<img class="tile-image" src="<?php echo $tile_2_image['url']; ?>">
 						<p class="tile-text"><?php echo $tile_2_text; ?></p>
 						<h2 class="tile-title"><?php echo $tile_2_title; ?></h2>
@@ -78,10 +84,10 @@ get_header(); ?>
 				</div>
 
 				<div class="brands-images">
-					<a href=""><img class="brand-image" src="<?php echo $brand_1_image['url']; ?>"></a>
-					<a href=""><img class="brand-image mobile-align-right" src="<?php echo $brand_2_image['url']; ?>"></a>
-					<a href=""><img class="brand-image" src="<?php echo $brand_3_image['url']; ?>"></a>
-					<a href=""><img class="brand-image mobile-align-right" src="<?php echo $brand_4_image['url']; ?>"></a>
+					<a href="<?php echo $brand_1_link['url']; ?>"><img class="brand-image" src="<?php echo $brand_1_image['url']; ?>"></a>
+					<a href="<?php echo $brand_2_link['url']; ?>"><img class="brand-image mobile-align-right" src="<?php echo $brand_2_image['url']; ?>"></a>
+					<a href="<?php echo $brand_3_link['url']; ?>"><img class="brand-image" src="<?php echo $brand_3_image['url']; ?>"></a>
+					<a href="<?php echo $brand_4_link['url']; ?>"><img class="brand-image mobile-align-right" src="<?php echo $brand_4_image['url']; ?>"></a>
 				</div>
 			</section>
 
