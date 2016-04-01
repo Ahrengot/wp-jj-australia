@@ -38,7 +38,7 @@
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
-			<a class="site-logo" href="#">
+			<a class="site-logo" href="http://au.jackjones.com">
 				<img src="http://cdn.jackjonesracing.com/wp-content/uploads/2016/03/header-logo.png" width="146" height="14" alt="">
 			</a>
 		</section>
