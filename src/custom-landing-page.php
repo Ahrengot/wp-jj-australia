@@ -62,7 +62,7 @@ get_header(); ?>
 
 			<section class="tiles">
 				<div class="tile first-tile">
-					<a href="<?php echo $tile_2_link; ?>">
+					<a href="<?php echo $tile_1_link; ?>">
 						<img class="tile-image" src="<?php echo $tile_1_image['url']; ?>">
 						<p class="tile-text"><?php echo $tile_1_text; ?></p>
 						<h2 class="tile-title"><?php echo $tile_1_title; ?></h2>
@@ -84,10 +84,10 @@ get_header(); ?>
 				</div>
 
 				<div class="brands-images">
-					<a href="<?php echo $brand_1_link['url']; ?>"><img class="brand-image" src="<?php echo $brand_1_image['url']; ?>"></a>
-					<a href="<?php echo $brand_2_link['url']; ?>"><img class="brand-image mobile-align-right" src="<?php echo $brand_2_image['url']; ?>"></a>
-					<a href="<?php echo $brand_3_link['url']; ?>"><img class="brand-image" src="<?php echo $brand_3_image['url']; ?>"></a>
-					<a href="<?php echo $brand_4_link['url']; ?>"><img class="brand-image mobile-align-right" src="<?php echo $brand_4_image['url']; ?>"></a>
+					<a href="<?php echo $brand_1_link ?>"><img class="brand-image" src="<?php echo $brand_1_image['url']; ?>"></a>
+					<a href="<?php echo $brand_2_link ?>"><img class="brand-image mobile-align-right" src="<?php echo $brand_2_image['url']; ?>"></a>
+					<a href="<?php echo $brand_3_link ?>"><img class="brand-image" src="<?php echo $brand_3_image['url']; ?>"></a>
+					<a href="<?php echo $brand_4_link ?>"><img class="brand-image mobile-align-right" src="<?php echo $brand_4_image['url']; ?>"></a>
 				</div>
 			</section>
 
