@@ -24,13 +24,13 @@
 				<h3>News</h3>
 				<ul>
 					<li>
-						<a href="">Campaigns</a>
+						<a href="http://au.jackjones.com/category/trends/">Trends</a>
 					</li>
 					<li>
-						<a href="">Brands</a>
+						<a href="http://au.jackjones.com/about-us/">Brands</a>
 					</li>
 					<li>
-						<a href="">Blog</a>
+						<a href="http://www.jackjonesblog.com/en">Blog</a>
 					</li>
 				</ul>
 			</div>
@@ -48,7 +48,7 @@
 			<div class="footer-column social">
 				<h3>FOLLOW US:</h3>
 				<div class="footer-social">
-					<a class="facebook-icon" href="https://www.facebook.com/JackandJones/" target="_blank"></a>
+					<a class="facebook-icon" href="https://www.facebook.com/jackandjonesAustralia/" target="_blank"></a>
 					<a class="instagram-icon" href="https://www.instagram.com/jackandjones_official/" target="_blank"></a>
 					<a class="twitter-icon" href="https://twitter.com/JackandJonesTM" target="_blank"></a>
 				</div>
