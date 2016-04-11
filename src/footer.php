@@ -38,10 +38,10 @@
 				<h3>Company</h3>
 				<ul>
 					<li>
-						<a href="http://www.aboutbestseller.com/sustainability" target="_blank">Sustainability</a>
+						<a href="http://jackjones.com/on/demandware.store/Sites-ROE-Site/en_GB/Page-InternalUrl?cid=jj-protect&forcecountry=GB&forcebrand=jack-jones" target="_blank">Sustainability</a>
 					</li>
 					<li>
-						<a href="http://www.aboutbestseller.com/news" target="_blank">Corporate News</a>
+						<a href="http://www.aboutbestseller.com/" target="_blank">Corporate News</a>
 					</li>
 				</ul>
 			</div>
