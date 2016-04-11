@@ -35,4 +35,6 @@ jQuery(document).ready(function($) {
 		$('.company ul').slideToggle('fast');
 		$(this).toggleClass('rotate-arrow');
 	});
+	
+	console.log('Goodbye cruel world');
 });
